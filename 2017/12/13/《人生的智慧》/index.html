@@ -1,23 +1,312 @@
 <!DOCTYPE html>
-<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
-<%- partial('_partial/head') %>
+<html>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="得到 | 每日一本书  关于作者阿尔图·叔本华，德国哲学家，唯意志主义和现代悲观主义创始人，19世纪上半叶欧洲最伟大的哲学家之一。叔本华30岁时写成《作为意志和表象的世界》，奠定了他的哲学思想基础。但此后，他在哲学界一直默默无闻。直到晚年的著作《附录和补遗》发表后，他才成名。 叔本华把伏尔泰、卢梭和康德看作是自己的精神导师，他在自己的书中经常引用这三个人的论述和观点。叔本华还有一个名气比他更大的">
+<meta name="keywords" content="智慧,人生,读书">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《人生的智慧》">
+<meta property="og:url" content="http://ccro.cc/2017/12/13/《人生的智慧》/index.html">
+<meta property="og:site_name" content="CCRO&#39;s FUTURE LAB">
+<meta property="og:description" content="得到 | 每日一本书  关于作者阿尔图·叔本华，德国哲学家，唯意志主义和现代悲观主义创始人，19世纪上半叶欧洲最伟大的哲学家之一。叔本华30岁时写成《作为意志和表象的世界》，奠定了他的哲学思想基础。但此后，他在哲学界一直默默无闻。直到晚年的著作《附录和补遗》发表后，他才成名。 叔本华把伏尔泰、卢梭和康德看作是自己的精神导师，他在自己的书中经常引用这三个人的论述和观点。叔本华还有一个名气比他更大的">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://ccro.cc/images/201712/IMG297.jpeg">
+<meta property="og:updated_time" content="2017-12-14T11:15:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="《人生的智慧》">
+<meta name="twitter:description" content="得到 | 每日一本书  关于作者阿尔图·叔本华，德国哲学家，唯意志主义和现代悲观主义创始人，19世纪上半叶欧洲最伟大的哲学家之一。叔本华30岁时写成《作为意志和表象的世界》，奠定了他的哲学思想基础。但此后，他在哲学界一直默默无闻。直到晚年的著作《附录和补遗》发表后，他才成名。 叔本华把伏尔泰、卢梭和康德看作是自己的精神导师，他在自己的书中经常引用这三个人的论述和观点。叔本华还有一个名气比他更大的">
+<meta name="twitter:image" content="http://ccro.cc/images/201712/IMG297.jpeg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>《人生的智慧》</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+    <link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rss -->
+    
+    
+    <!-- jquery -->
+    <script src="/lib/jquery/jquery.min.js"></script>
+</head>
+
 <body>
-    <%- partial('_partial/banner') %>
+    <div class="banner">
+<div id="blogtitel" class="blogtitel">CCRO&#39;s FUTURE LAB</div>
+<ul id="wrapper" class="wrapper">
+  <div class="sun">
+    <div class="star"></div>
+  </div>
+  <div class="mercury">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="venus">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="earth">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="mars">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="jupiter">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+</ul>
+</div>
+
     <div class="background">
-      <% if (is_post()) { %>
-        <%- partial('_partial/post/actions_desktop') %>
-      <% } %>
+      
+        <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/ccrocc">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2017/12/14/《你要如何衡量你的人生》/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover='$("#i-prev").toggle();' onmouseout='$("#i-prev").toggle();'></i></a></li>
+        
+        
+        <li><a class="icon" href="/2017/12/07/Who-am-I/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://ccro.cc/2017/12/13/《人生的智慧》/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://ccro.cc/2017/12/13/《人生的智慧》/&text=《人生的智慧》"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://ccro.cc/2017/12/13/《人生的智慧》/&is_video=false&description=《人生的智慧》"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=《人生的智慧》&body=Check out this article: http://ccro.cc/2017/12/13/《人生的智慧》/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://ccro.cc/2017/12/13/《人生的智慧》/&name=《人生的智慧》&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#关于作者"><span class="toc-number">1.</span> <span class="toc-text">关于作者</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关于本书"><span class="toc-number">2.</span> <span class="toc-text">关于本书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#核心内容"><span class="toc-number">3.</span> <span class="toc-text">核心内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一、幸福和痛苦的关系"><span class="toc-number">4.</span> <span class="toc-text">一、幸福和痛苦的关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二、财富越多痛苦越多，智慧越多幸福感越多"><span class="toc-number">5.</span> <span class="toc-text">二、财富越多痛苦越多，智慧越多幸福感越多</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三、享受孤独是获得快乐的源泉"><span class="toc-number">6.</span> <span class="toc-text">三、享受孤独是获得快乐的源泉</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+      
       <div class="content index width mx-auto px2 my4">
-          <% if (!is_post()) { %>
-            <%- partial('_partial/header') %>
-          <% } %>
-          <%- body %>
+          
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        《人生的智慧》
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">CCRO's FUTURE LAB</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2017-12-13T18:35:43.232Z" itemprop="datePublished">2017-12-13</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/人生/">人生</a>, <a class="tag-link" href="/tags/智慧/">智慧</a>, <a class="tag-link" href="/tags/读书/">读书</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <blockquote>
+<p>得到 | 每日一本书</p>
+</blockquote>
+<h3 id="关于作者"><a href="#关于作者" class="headerlink" title="关于作者"></a>关于作者</h3><p>阿尔图·叔本华，德国哲学家，唯意志主义和现代悲观主义创始人，19世纪上半叶欧洲最伟大的哲学家之一。叔本华30岁时写成《作为意志和表象的世界》，奠定了他的哲学思想基础。但此后，他在哲学界一直默默无闻。直到晚年的著作《附录和补遗》发表后，他才成名。</p>
+<p>叔本华把伏尔泰、卢梭和康德看作是自己的精神导师，他在自己的书中经常引用这三个人的论述和观点。叔本华还有一个名气比他更大的学生，那就是尼采。他的思想还影响了后世很多文学和艺术大师。比如，俄国的托尔斯泰、屠格涅夫；英国的托马斯哈代；法国的莫泊桑、左拉；以及德国音乐大师瓦格纳。这些人的作品里，都有叔本华思想的影子。</p>
+<h3 id="关于本书"><a href="#关于本书" class="headerlink" title="关于本书"></a>关于本书</h3><p>这是一本用来理解幸福和痛苦本质的“人生的参考书”，今天讲的《人生的智慧》，就是《附录和补遗》中的一部分。作者以“人是有意志的动物”为前提，解释了“幸福”与“痛苦”之间的关系。在厘清了这两者的关系后，叔本华提出了“智慧”获得人生幸福的方法。本书提出的问题包括：人应该怎样看待与自身的关系；怎样看待和处理与他人的关系；怎样看待和利用财富，以及用以什么样的状态体验幸福和快乐。</p>
+<h3 id="核心内容"><a href="#核心内容" class="headerlink" title="核心内容"></a>核心内容</h3><ol>
+<li>人生本来就是痛苦的，不要妄想实现什么绝对的幸福，而要懂得放弃不适当的欲望，尽量减少烦恼。</li>
+<li>人生追求的首要目的不是财富，而是智慧地处理财富。</li>
+<li>享受孤独、自得其乐是获得幸福和安乐的源泉。</li>
+</ol>
+<center><br><img src="/images/201712/IMG297.jpeg" alt=""><br></center>
+
+<h3 id="一、幸福和痛苦的关系"><a href="#一、幸福和痛苦的关系" class="headerlink" title="一、幸福和痛苦的关系"></a>一、幸福和痛苦的关系</h3><p>人之所以痛苦，就是因为有欲望。欲望越多就越痛苦。智慧的人生不是追求幸福，而是减少痛苦。所有的幸福都是虚幻的，而只有痛苦是真实的。</p>
+<ol>
+<li><p>调整看待自己的态度</p>
+<p> 人要认清自己生命总体发展的大概脉络，并且有大概的发展计划。我们要学会“认识自己”，明白自己应该从事什么职业、需要扮演什么角色，以及自己和这个世界是什么关系。既要低头认真工作，也要偶尔抬起头看看远方的目标，这样才能确保自己的步伐朝着目标方向直线前进。<br> 正确对待自己的另一方法是，活在当下。我们应该忘掉过去、关注现在和计划将来，让这三者达到平衡，互不干扰。活在过去的失败中，人会无法体验现在的快乐。过于担心将来可能发生的祸患，等于提前兑现人生的痛苦。</p>
+</li>
+<li><p>调整看待他人的态度</p>
+<p> 人生在世，永远需要和别人合作或者打交道。与人相处要掌握两个能力：一个是“预见能力”，它能帮助我们避免受到伤害；另一个是“宽恕能力”，它能避免我们受到人群中是是非非的困扰。中国有句俗语：“防人之心不可无，害人之心不可有”。人要在社会中生存，就必须容许别人有他们自己的个性。我们既不应该期待别人改变个性、也不谴责别人的个性与我的不一样。这就是“自己生活，也让别人生活”。</p>
+</li>
+</ol>
+<h3 id="二、财富越多痛苦越多，智慧越多幸福感越多"><a href="#二、财富越多痛苦越多，智慧越多幸福感越多" class="headerlink" title="二、财富越多痛苦越多，智慧越多幸福感越多"></a>二、财富越多痛苦越多，智慧越多幸福感越多</h3><p>在追求财富的问题上，要有一个理智的限度。财富欲望能否得到满足，不是由财富的绝对数量决定的，而是由相对数量决定的；财富就像咸咸的海水：人喝海水越多，就会越感到口渴。</p>
+<p>人都是有欲望的物种，满足欲望最直接的方式，就是追求财富、地位和名誉。有了财富、地位、名誉，才可能满足人们的欲望。欲望无止境，对财富的追求也就无止境。而承担巨大的财富，却不会理智利用财富的人，往往就会被财富所坑害。</p>
+<p>对穷人来说，恰当地追求财富也是无可厚非的。叔本华建议人们应该把现有的财富，看做是抵御未来发生不测事件的城墙。如果花钱大手大脚，入不敷出，总有遇到重大挫折、无法应对的情况。缺钱的痛苦，比钱多的痛苦，是更加真切的。叔本华建议，人至少要把赚来的钱的八分之一存起来，应对未来的需要。</p>
+<p>对于富人，想从财富中获得幸福，要具有“高级精神禀赋”。富人要知道怎样利用财富创造更大的社会价值，而不是用来个人享受和消费。富人得天独厚的优势不是财富，而是用财富可以做到别人做不了的事情，能创造出对于全社会都有意义的更大财富。如果能做到这些，那么他就是具有了“高级精神禀赋”的富人。</p>
+<h3 id="三、享受孤独是获得快乐的源泉"><a href="#三、享受孤独是获得快乐的源泉" class="headerlink" title="三、享受孤独是获得快乐的源泉"></a>三、享受孤独是获得快乐的源泉</h3><p>生活在社交人群当中，必然要求人们相互迁就和忍让。而且聚会的场面越大，就越容易变得枯燥乏味。一个社交聚会的人越多，那聚会的本质就会变得越平庸。</p>
+<p>人只有在独处的时候，才可以完全成为自己。不热爱独处的人，也就是不热爱自由的人。只有当一个人独处的时候，他的个性、才气、好恶能够无拘无束地抒发，这才是真正的自由，这种体验才是真正的快乐。放弃社交聚会以换回独处，才是最智慧的选择。</p>
+<p>年轻人学习人生智慧的第一课，就是要学会承受孤独，因为孤独是幸福、安乐的源泉。一个人自身拥有的越多，他需要从别人那里获得的东西就越少。这样内心丰富的人，即使长时间独处，也不会感觉到孤独。</p>
+<blockquote>
+<p>金句</p>
+</blockquote>
+<ol>
+<li>智慧的人生不是追求幸福，而是减少痛苦，放弃欲望才能获得幸福。</li>
+<li>人生追逐的不应该是财富，而是智慧。</li>
+<li>享受孤独，自得其乐，是获得快乐的源泉。</li>
+<li>自己生活，也让别人生活。</li>
+<li>一个人自身拥有的越多，他需要从别人那里获得的东西就越少。</li>
+<li>社交聚会的人越多，聚会的本质就会变得越平庸。</li>
+</ol>
+<p>撰稿：王旭 脑图：摩西</p>
+
+  </div>
+</article>
+
+
+
       </div>
-      <% if (is_post()) { %>
-       <%- partial('_partial/post/actions_mobile') %>
-      <% } %>
-      <%- partial('_partial/footer') %>
-      <%- partial('_partial/scripts') %>
+      
+       <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/ccrocc">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#关于作者"><span class="toc-number">1.</span> <span class="toc-text">关于作者</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关于本书"><span class="toc-number">2.</span> <span class="toc-text">关于本书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#核心内容"><span class="toc-number">3.</span> <span class="toc-text">核心内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一、幸福和痛苦的关系"><span class="toc-number">4.</span> <span class="toc-text">一、幸福和痛苦的关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二、财富越多痛苦越多，智慧越多幸福感越多"><span class="toc-number">5.</span> <span class="toc-text">二、财富越多痛苦越多，智慧越多幸福感越多</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三、享受孤独是获得快乐的源泉"><span class="toc-number">6.</span> <span class="toc-text">三、享受孤独是获得快乐的源泉</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://ccro.cc/2017/12/13/《人生的智慧》/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://ccro.cc/2017/12/13/《人生的智慧》/&text=《人生的智慧》"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://ccro.cc/2017/12/13/《人生的智慧》/&is_video=false&description=《人生的智慧》"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=《人生的智慧》&body=Check out this article: http://ccro.cc/2017/12/13/《人生的智慧》/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://ccro.cc/2017/12/13/《人生的智慧》/&title=《人生的智慧》"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://ccro.cc/2017/12/13/《人生的智慧》/&name=《人生的智慧》&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+      
+      <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2018 ccro
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/ccrocc">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+<!-- sky with stars -->
+<script src="/js/sky.js"></script>
+
+
+      <script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-111641564-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Disqus Comments -->
+
+
     </div>
 </body>
 </html>

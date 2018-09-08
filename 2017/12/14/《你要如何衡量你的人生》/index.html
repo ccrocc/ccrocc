@@ -1,23 +1,326 @@
 <!DOCTYPE html>
-<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
-<%- partial('_partial/head') %>
+<html>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="得到 | 每日一本书  关于作者克莱顿·克里斯坦森，世界管理学大师、哈佛商学院知名教授，2011年被《哈佛商业评论》评为“当代50名最具影响力的商业思想家”之一。《你要如何衡量你的人生》是根据他本人在哈佛商学院发表的一场极具影响力的演讲整理而成，这场演讲被誉为“哈佛商学院毕业前最重要的一堂课”。当时毕业于哈佛商学院的詹姆斯·奥沃斯和担任《哈佛商业评论》编辑的凯伦·迪伦，恰好聆听了这场演讲，深受触">
+<meta name="keywords" content="智慧,人生,读书">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《你要如何衡量你的人生》">
+<meta property="og:url" content="http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/index.html">
+<meta property="og:site_name" content="CCRO&#39;s FUTURE LAB">
+<meta property="og:description" content="得到 | 每日一本书  关于作者克莱顿·克里斯坦森，世界管理学大师、哈佛商学院知名教授，2011年被《哈佛商业评论》评为“当代50名最具影响力的商业思想家”之一。《你要如何衡量你的人生》是根据他本人在哈佛商学院发表的一场极具影响力的演讲整理而成，这场演讲被誉为“哈佛商学院毕业前最重要的一堂课”。当时毕业于哈佛商学院的詹姆斯·奥沃斯和担任《哈佛商业评论》编辑的凯伦·迪伦，恰好聆听了这场演讲，深受触">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://ccro.cc/images/201712/IMG305.jpeg">
+<meta property="og:updated_time" content="2017-12-14T11:09:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="《你要如何衡量你的人生》">
+<meta name="twitter:description" content="得到 | 每日一本书  关于作者克莱顿·克里斯坦森，世界管理学大师、哈佛商学院知名教授，2011年被《哈佛商业评论》评为“当代50名最具影响力的商业思想家”之一。《你要如何衡量你的人生》是根据他本人在哈佛商学院发表的一场极具影响力的演讲整理而成，这场演讲被誉为“哈佛商学院毕业前最重要的一堂课”。当时毕业于哈佛商学院的詹姆斯·奥沃斯和担任《哈佛商业评论》编辑的凯伦·迪伦，恰好聆听了这场演讲，深受触">
+<meta name="twitter:image" content="http://ccro.cc/images/201712/IMG305.jpeg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>《你要如何衡量你的人生》</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+    <link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rss -->
+    
+    
+    <!-- jquery -->
+    <script src="/lib/jquery/jquery.min.js"></script>
+</head>
+
 <body>
-    <%- partial('_partial/banner') %>
+    <div class="banner">
+<div id="blogtitel" class="blogtitel">CCRO&#39;s FUTURE LAB</div>
+<ul id="wrapper" class="wrapper">
+  <div class="sun">
+    <div class="star"></div>
+  </div>
+  <div class="mercury">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="venus">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="earth">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="mars">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="jupiter">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+</ul>
+</div>
+
     <div class="background">
-      <% if (is_post()) { %>
-        <%- partial('_partial/post/actions_desktop') %>
-      <% } %>
+      
+        <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/ccrocc">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2017/12/19/《无声胜有声》Stillness Speaks - Crystal Liu/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover='$("#i-prev").toggle();' onmouseout='$("#i-prev").toggle();'></i></a></li>
+        
+        
+        <li><a class="icon" href="/2017/12/13/《人生的智慧》/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&text=《你要如何衡量你的人生》"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&is_video=false&description=《你要如何衡量你的人生》"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=《你要如何衡量你的人生》&body=Check out this article: http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&name=《你要如何衡量你的人生》&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#关于作者"><span class="toc-number">1.</span> <span class="toc-text">关于作者</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关于本书"><span class="toc-number">2.</span> <span class="toc-text">关于本书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#核心内容"><span class="toc-number">3.</span> <span class="toc-text">核心内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一、如何找到自己真正热爱的事业"><span class="toc-number">4.</span> <span class="toc-text">一、如何找到自己真正热爱的事业</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二、把热爱的事业坚持下去"><span class="toc-number">5.</span> <span class="toc-text">二、把热爱的事业坚持下去</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三、在发展事业的同时，如何经营好家庭关系"><span class="toc-number">6.</span> <span class="toc-text">三、在发展事业的同时，如何经营好家庭关系</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+      
       <div class="content index width mx-auto px2 my4">
-          <% if (!is_post()) { %>
-            <%- partial('_partial/header') %>
-          <% } %>
-          <%- body %>
+          
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        《你要如何衡量你的人生》
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">CCRO's FUTURE LAB</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2017-12-14T17:05:19.258Z" itemprop="datePublished">2017-12-14</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/人生/">人生</a>, <a class="tag-link" href="/tags/智慧/">智慧</a>, <a class="tag-link" href="/tags/读书/">读书</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <blockquote>
+<p>得到 | 每日一本书</p>
+</blockquote>
+<h3 id="关于作者"><a href="#关于作者" class="headerlink" title="关于作者"></a>关于作者</h3><p>克莱顿·克里斯坦森，世界管理学大师、哈佛商学院知名教授，2011年被《哈佛商业评论》评为“当代50名最具影响力的商业思想家”之一。《你要如何衡量你的人生》是根据他本人在哈佛商学院发表的一场极具影响力的演讲整理而成，这场演讲被誉为“哈佛商学院毕业前最重要的一堂课”。当时毕业于哈佛商学院的詹姆斯·奥沃斯和担任《哈佛商业评论》编辑的凯伦·迪伦，恰好聆听了这场演讲，深受触动，并与之共同完成了这本书的写作。</p>
+<h3 id="关于本书"><a href="#关于本书" class="headerlink" title="关于本书"></a>关于本书</h3><p>作者将自己的人生经历与企业管理研究成果相结合，用通俗易懂的文字阐述人生规划问题。书中指出：我们一生最大的成功并不是来自他人的评价，而是内心深处的满足；搞清楚什么是你这辈子最重要的东西，才是如何评价自己人生的关键。</p>
+<h3 id="核心内容"><a href="#核心内容" class="headerlink" title="核心内容"></a>核心内容</h3><p>人们通常认为，金钱和名望是衡量成功的主要标准，不少职场新人都将收入作为选择工作的首要动机。但是克里斯坦森却认为：一千个人眼里就有一千个成功的定义，只有找到一份发自内心去热爱的工作，才会在工作中找到幸福。他还进一步告诫我们，追求事业的同时，别忘了经营好家庭关系，工作和事业给我们带来的是即时成就感，而家人给我们带来的则是长久的幸福感。</p>
+<center><br><img src="/images/201712/IMG305.jpeg" alt=""><br></center>
+
+<h3 id="一、如何找到自己真正热爱的事业"><a href="#一、如何找到自己真正热爱的事业" class="headerlink" title="一、如何找到自己真正热爱的事业"></a>一、如何找到自己真正热爱的事业</h3><p>这一部分主要探讨了三个问题，真正激励你的动力到底是什么，如何把握周密计划与偶然机会的平衡，你所实施的战略与你的最终目标是否一致。</p>
+<ol>
+<li><p>动力因素和基础因素有什么不同</p>
+<p> 我们最容易想到的，可能也是最普遍使用的，就是经济或物质激励。在作者看来，物质激励只是我们从事某项工作的一个基础因素，动力因素则来自于人们内心深处的热爱和兴趣。</p>
+</li>
+<li><p>周密战略和应急战略在人生中发挥不同作用</p>
+<p> 所谓“周密战略”，是你在做一件事情之前，就已经制订好的周密计划，也可以说是预期机遇；而所谓“应急战略”，则是面对意外出现的机遇临时采取的措施。我们的人生规划，总是处在周密战略和应急战略相互交错和调整的状态。</p>
+</li>
+<li><p>合理配置资源，确保我们努力的步伐不会脱离梦想的轨道</p>
+<p> 很多成功人士尽管知道家庭对他们来说最为重要，可是陪伴爱人、教育孩子是一个漫长的过程，于是他们把更多的时间都用在了职位晋升和赚取财富上。所以要避免资源投入与战略目标的不一致，就要搞明白什么是最重要的事情，然后重新配置资源。</p>
+</li>
+</ol>
+<h3 id="二、把热爱的事业坚持下去"><a href="#二、把热爱的事业坚持下去" class="headerlink" title="二、把热爱的事业坚持下去"></a>二、把热爱的事业坚持下去</h3><p>对待目标的态度不能过于死板和顽固，面对那些意外的机会和危险，要学会及时调整最初的目标，但是一旦确定下来什么是自己真正想要的，就要毫无保留地坚持，不能为了眼前利益抛弃长远的成功和幸福。</p>
+<ol>
+<li><p>有效的企业目标包括三个组成部分：一是未来的“画像”，二是员工对“画像”的认同感，三是衡量标尺。</p>
+</li>
+<li><p>实现未来“画像”过程中的每一个阶段，都要问自己这样一个问题——我到底想要成为谁？如果有一天，你发现“画像”中的自己并不是你想成为的人，就必须停下脚步，重新考虑和选择。但是一旦确定你想成为什么样的人，就要付出100%的坚持。</p>
+</li>
+<li><p>“只犯一次错”的代价看起来总是很低的，可问题是一旦开始纵容自己犯错，心中的价值标尺、道德准则都会坍塌。人的毁灭不是瞬间造就的，而是多个“仅此一次”累积的结果。</p>
+</li>
+<li><p>坚持是人生中最重要的事，破例一次“没有不良后果”所带来的窃喜将会诱惑人们一而再，再而三地破例，最终踏入深渊。所以，抵制诱惑的最好办法就是，永远不要迈出最危险的第一步。</p>
+</li>
+</ol>
+<h3 id="三、在发展事业的同时，如何经营好家庭关系"><a href="#三、在发展事业的同时，如何经营好家庭关系" class="headerlink" title="三、在发展事业的同时，如何经营好家庭关系"></a>三、在发展事业的同时，如何经营好家庭关系</h3><ol>
+<li><p>投资时间</p>
+<p> 企业管理中的“好钱”和“坏钱”理论，用在我们的生活中同样行得通。如果你只花了很少的钱，就发现自己投资方向是错误的，并且及时调整方向，这种情况下所投入的就是“好钱”。<br> 相反，如果你把所有钱都投进去以后，才发现最初的策略从根本上就是错误的，这就是“坏钱”。不要忽视世界上你最在乎的人，要在你对这种关系有需求前就进行投资。</p>
+</li>
+<li><p>了解爱人的需要</p>
+<p> 明确爱人的需求，是与爱人建立良好关系的前提和基础。我们的一生都在从事着一份最重要的工作，那就是当别人的配偶。许多建立在无私奉献基础上的婚姻之所以失败，就是因为他们只给对方自己想给的，却从不考虑对方想要什么。</p>
+</li>
+<li><p>培养孩子获取成功的能力</p>
+<p> 对于一家企业来说，最重要的能力是三点，一是资源，二是应用流程，三是行为价值取向。这个模型同样可以应用在对孩子的培养过程当中。<br> 对于孩子来说，资源指的是他们从别处获取的知识和经验，应用流程指的是他们的思考方式。<br> 现在很多家长工作非常忙碌，但同时又急于要让孩子赢在起跑线上，于是他们把孩子送到舞蹈、音乐、钢琴等各种课外辅导班和夏令营中去。这样虽然减轻了家长的负担，但孩子们可能并不喜欢，也难以投入进去，结果浪费了大量的时间和资源。<br> 正确的做法是：家长要时刻留意自己的一言一行；在孩子遇到困难的时候，家长要鼓励他独自解决问题，而不是替他解决；帮助孩子找到他们真正热爱的事情，而不是逼迫他们学习某种知识。</p>
+</li>
+<li><p>看不见的手：家庭文化</p>
+<p> 企业文化决定企业员工的价值取向，家庭文化同样决定家庭成员的价值取向。特定的家庭文化一旦形成，孩子们不再需要做每件事之前都来征求父母的意见，因为他们知道父母希望他们怎样做，怎样做符合这个家庭的文化。</p>
+</li>
+</ol>
+<blockquote>
+<p>金句</p>
+<ol>
+<li>收入固然重要，但如果把收入作为求职的首要甚至唯一标准，那么这份工作充其量只是你的谋生手段，不可能成为你毕生追求的事业。</li>
+<li>我们的人生规划总是处在周密战略和应急战略相互交错和调整的状态，当应急战略被证明有效，就会快速上升为周密战略。</li>
+<li>确定自己想要成为什么样的人也许并不困难，真正难的是，能否为了成为这样的人而付出全部牺牲和努力。</li>
+<li>对于一家企业来说，最重要的能力是三点，一是资源，二是应用流程，三是行为价值取向。这个模型同样可以应用在对孩子的培养过程当中。</li>
+</ol>
+</blockquote>
+<p>撰稿：叙岚<br>脑图：摩西</p>
+
+  </div>
+</article>
+
+
+
       </div>
-      <% if (is_post()) { %>
-       <%- partial('_partial/post/actions_mobile') %>
-      <% } %>
-      <%- partial('_partial/footer') %>
-      <%- partial('_partial/scripts') %>
+      
+       <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/ccrocc">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#关于作者"><span class="toc-number">1.</span> <span class="toc-text">关于作者</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关于本书"><span class="toc-number">2.</span> <span class="toc-text">关于本书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#核心内容"><span class="toc-number">3.</span> <span class="toc-text">核心内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一、如何找到自己真正热爱的事业"><span class="toc-number">4.</span> <span class="toc-text">一、如何找到自己真正热爱的事业</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二、把热爱的事业坚持下去"><span class="toc-number">5.</span> <span class="toc-text">二、把热爱的事业坚持下去</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三、在发展事业的同时，如何经营好家庭关系"><span class="toc-number">6.</span> <span class="toc-text">三、在发展事业的同时，如何经营好家庭关系</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&text=《你要如何衡量你的人生》"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&is_video=false&description=《你要如何衡量你的人生》"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=《你要如何衡量你的人生》&body=Check out this article: http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&title=《你要如何衡量你的人生》"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://ccro.cc/2017/12/14/《你要如何衡量你的人生》/&name=《你要如何衡量你的人生》&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+      
+      <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2018 ccro
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/ccrocc">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+<!-- sky with stars -->
+<script src="/js/sky.js"></script>
+
+
+      <script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-111641564-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Disqus Comments -->
+
+
     </div>
 </body>
 </html>
