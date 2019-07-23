@@ -1,5 +1,7 @@
 ### hexo cheatsheet
+- `hexo generate --draft --watch & live-server --port=4000 public`
 
-hexo c
-hexo g
-hexo d
+- $ hexo clean | hexo c
+- $ hexo generate | hexo g
+- $ hexo deploy | hexo d
+
