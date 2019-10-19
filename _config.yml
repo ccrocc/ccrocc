@@ -79,3 +79,10 @@ theme: solar
 deploy:
   type: git
   repo: git@github.com:ccrocc/ccrocc.git
+
+# hexo-admin authentification
+admin:
+  username: ccro
+  password_hash: $2a$10$LObSnXiqyvc1qCA9odOh5ubCmpoA36Fet6JYt5s5vbvjYbYGdExVq
+  secret: IvIJI76LwN
+  deployCommand: './hexo-deploy.sh'
