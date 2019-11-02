@@ -1097,7 +1097,8 @@ article .content blockquote {
 article .content blockquote p {
   margin: 0;
 }
-article .content blockquote:before {
+article .content blockquote:before,
+article .content blockquote :after {
   color: #ccffb6;
   content: "\201C";
   font-size: 2em;
