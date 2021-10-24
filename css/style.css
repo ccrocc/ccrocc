@@ -619,10 +619,6 @@ body {
 #header #nav ul li:last-child a {
   margin-right: 0;
 }
-#header:hover #logo {
-  -webkit-filter: none;
-  filter: none;
-}
 @media screen and (max-width: 480px) {
   #header #title {
     padding-top: 9px;
